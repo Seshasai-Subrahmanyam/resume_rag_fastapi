@@ -156,5 +156,6 @@ if __name__ == "__main__":
         "server:app",
         host=Config.HOST,
         port=Config.PORT,
-        reload=True
+        reload=False,
+        workers=2
     )
